@@ -47,13 +47,9 @@
     <li>HTML5</li>
     <li>CSS3</li>
   </ul>
-> Projet OpenclassRooms
-
-### ✨ [Demo](webagency.webamlo.com)
-
 ## Author
 
-👤 **Moise Velez**
+👤 **Moïse Velez**
 
 * Website: webagency.webamlo.com 
 * Github: [@Mose-dev](https://github.com/Mose-dev)
