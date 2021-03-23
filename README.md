@@ -57,7 +57,7 @@
 
 * Website: webagency.webamlo.com 
 * Github: [@Mose-dev](https://github.com/Mose-dev)
-* LinkedIn: [@Moise Velez](https://linkedin.com/in/Moise Velez)
+* LinkedIn: www.linkedin.com/in/moïse-velez
 
 ## Show your support
 
