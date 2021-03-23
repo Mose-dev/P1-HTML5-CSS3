@@ -1,0 +1,1001 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header. */
+.p1 {
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+}
+
+/* Logo de l'agence dans le header. */
+.logo {
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 50%;
+}
+
+.logo img {
+    width: 40%;
+}
+
+/* Navigation dans le header. */
+.page2 {
+    width: 50%;
+}
+
+.page2 ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-right: 15%;
+}
+
+.page2 li {
+    border-top: 4px solid #fff;
+    list-style-type: none;
+    padding-top: 8%;
+}
+
+.page2 a {
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+.page2 li:hover {
+    border-top: 4px solid #5cadd3;
+}
+
+/* Section-1: Photo de l'agence. */
+.photo {
+    padding-top: 7%;
+}
+
+.conteneur1 {
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+/* Diaporama de navigation dans la photo de l'agence. */
+.flechedroite {
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    color: #ffffff;
+    font-size: 1.9em;
+    background-color: #00000033;
+    padding: 20px 7px 20px 20px;
+    transform: translateY(50%);
+    border-radius: 50px 0px 0px 50px;
+}
+
+.flechegauche {
+    position: absolute;
+    font-size: 1.9em;
+    color: #ffffff;
+    bottom: 50%;
+    transform: translateY(50%);
+    background-color: #00000033;
+    padding: 20px 20px 20px 7px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* Section-1: Texte dans la photo de lagence. */
+.text {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.motcle {
+    color: #5cadd3;
+}
+
+.text h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 0%;
+}
+
+/* Lien dans la photo de l'agence. */
+.boutonbleu {
+    border: 1px solid #5cadd3;
+    width: 24%;
+    background-color: #5cadd3;
+    text-align: center;
+    border-bottom: 4px solid #5182a0;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 4%;
+}
+
+.boutonbleu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Section-2: Les services.Titres. */
+.serv h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 7%;
+    margin-bottom: 0%;
+}
+
+/* Section-2: Les services.Rond bleu. */
+.point {
+    color: #5cadd3;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Section-2: Les services. Lignes de decoration. */
+.ligneg {
+    position: relative;
+    left: 46%;
+    top: 39px;
+    width: 3%;
+}
+
+.ligned {
+    position: relative;
+    width: 3%;
+    left: 51%;
+    top: 26px;
+}
+
+.rond
+{
+    background: #fff;
+    width: 30px;
+    margin: auto;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-2: Les services.Paragraphes. */
+.para {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* Aside contenant la photo ecran + les services. */
+.info {
+    display: flex;
+}
+
+.ord {
+    width: 50%;
+    text-align: end;
+}
+
+/* Photo de l'ecran dans les services. */
+.ecran {
+    width: 40%;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+/* Figures et textes dans les services. */
+.stat {
+    
+    width: 80%;
+}
+
+.stat p,
+h4 {
+    margin-left: 15%;
+    margin-bottom: 0%;
+}
+
+.ux {
+    color: #5cadd3;
+    width: 70px;
+    position: relative;
+    top: 85px;
+}
+
+.col {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.back {
+    margin-left: -7%;
+    font-size: 0.5em;
+    position: absolute;
+    top: 35%;
+}
+
+.circled {
+    border: #aaa solid 1px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+
+/* Section-3:Les projets. En-têtes. */
+.colo
+{
+    background: #f5f5f5;
+    margin-top: 55px;
+}
+
+.projets h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 7%;
+    margin: 0%;
+}
+
+.projets p {
+    text-align: center;
+    margin-top: 1%;
+}
+
+/* Navigation dans la section projets. */
+.demo {
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;
+    color: #000;
+}
+
+.demo a{
+    color: #000;
+}
+
+.liste {
+    display: flex;
+    padding: 0%;
+}
+
+.demo li {
+    list-style-type: none;
+    background-color: #e5e5e5;
+    color: #000;
+    padding: 5px 0px 15px 15px;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+.demo li:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.demo li:nth-child(4) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.demo a {
+    text-decoration: none;
+}
+
+.triangle {
+    position: relative;
+    color: #468cad;
+    font-size: 2em;
+    right: 40px;
+    top: 35px;
+    visibility: hidden;
+}
+
+.demo li:hover {
+    background-color: #5cadd3;
+    border-bottom: 3px solid #468cad;
+}
+
+.demo li:hover a {
+    color: #fff;
+}
+
+.demo li:hover .triangle {
+    visibility: visible;
+}
+
+/* Section-4: Portfolio. Images dans le portfolio. */
+.pfolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 1%;
+}
+
+figure {
+    width: 20%;
+    margin: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+figure img {
+    height: auto;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+}
+
+figcaption h3,
+figcaption {
+    text-align: center;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+
+.oeil {
+    height: 30px;
+    width: 30px;
+    background-color: #5cadd3;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+}
+
+.eye {
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+/* Footer: Footer: Google maps. */
+footer {
+    position: relative;
+    padding-top: 5%;
+}
+
+footer .carte {
+    width: 100%;
+}
+
+.plan {
+    height: 860px;
+    width: 100%;
+    background-color: #5cadd3;
+}
+
+.google_map {
+    width: 100%;
+    height: 100%;
+    border: none;
+    opacity: 0.7;
+}
+
+/* Formulaire de contact. */
+
+.cont {
+    background-color: #ffffffe6;
+    width: 20%;
+    position: absolute;
+    bottom: 13%;
+    right: 5%;
+}
+
+.geo {
+    padding-left: 7%;
+}
+
+.geo h3,
+h2 {
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.geo p {
+    margin-top: 0%;
+}
+
+.send {
+    padding-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+textarea {
+    width: 90%;
+    border-radius: 5px;
+    padding: 2%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0%;
+}
+.parea {
+    margin-bottom: 2px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #808080;
+    padding: 2%;
+    font-weight: bold;
+    color: #000;
+    width: 90%;
+}
+
+.gota {
+    padding-left: 7%;
+    margin-top: 0%;
+}
+
+.gota input {
+    background-color: #5cadd3;
+    color: #fff;
+    border-bottom: 3px solid #5182a0;
+    width: 35%;
+    margin: 0%;
+    height: 27px;
+}
+
+
+/* Responsive: Ecran max 1280px. */
+@media all and (max-width: 1280px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    /* Header. */
+    .p1 {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .page2 ul {
+        margin-right: 5%;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    /* Section-1: Photo de l'agence. */
+    section.photo {
+        padding-top: 8%;
+    }
+
+    .text h1 {
+        font-size: 2.2em;
+    }
+
+    .boutonbleu {
+        width: 32%;
+    }
+
+    /* Section-2: Les services. Titres. */
+    .serv h1 {
+        margin: 0%;
+        padding-top: 11%;
+    }
+
+    /* Section-2: Les services. Rond bleu. */
+    .point {
+        margin-top: 0%;
+    }
+    /* Section-2: Les services. Lignes de decoration. */
+    .ligneg {
+        left: 45%;
+    }
+
+    .ligned {
+        left: 52%;
+    }
+
+    /* Aside contenant la photo ecran + les services. */
+    span.ord {
+        margin-left: 8%;
+    }
+
+    /* Figures et textes dans les services. */
+    .stat {
+        width: 90%;
+    }
+
+    .ux {
+        width: 70px;
+    }
+
+    /* Section-3:Les projets. En-têtes. */
+    .projets h1 {
+        padding-top: 11%;
+    }
+
+    /* Images dans le portfolio. */
+    .demo {
+        padding-top: 0%;
+    }
+
+    .pfolio {
+        width: 100%;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    figure {
+        margin-bottom: 0%;
+        width: 23%;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    .pfolio .figure {
+        justify-content: center;
+    }
+
+    /* Footer: Contacts. */
+    .carte {
+        padding-top: 7%;
+    }
+
+    /* Formulaire de contact. */
+    .cont {
+        width: 30%;
+    }
+}
+
+/* Responsive: Ecran max 949px. */
+@media all and (max-width: 949px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    /* Header. */
+    .p1 {
+        height: 12%;
+    }
+
+    /* Logo de l'agence dans le header. */
+    .logo {
+        margin-left: 7%;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .page2 {
+        width: 60%;
+        font-size: 1.1em;
+    }
+
+    .page2 ul {
+        justify-content: flex-start;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
+    /* Section-1: Texte dans la photo de lagence. */
+    .text {
+        font-size: 0.8em;
+        left: 7%;
+    }
+
+    /* Section-2: Les services. Titres. */
+    .serv h1 {
+        font-size: 2.8em;
+    }
+
+    /* Section-2: Les services. Rond bleu. */
+    .point {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .rond
+    {
+        position: relative;
+        bottom: 25px;
+    }
+
+    /* Section-2: Les services. Lignes de décoration. */
+    .ligneg {
+        width: 11%;
+        left: 39%;
+        top: 16px;
+    }
+
+    .ligned {
+        width: 11%;
+        left: 50%;
+        top: 2px;
+    }
+
+    /* section-2: Les services. Paragraphes. */
+    .para {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    /* Aside contenant la photo ecran + les services. */
+    .info {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    span.ord {
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /* Figures et textes dans les services. */
+    .ecran {
+        width: 90%;
+        margin: 0%;
+    }
+
+    .stat {
+        text-align: justify;
+    }.stat col{
+        text-align: center;
+    }
+
+    .stat p,
+    h4 {
+        width: 90%;
+       margin-left: 10%;
+    }
+
+    .ux {
+        width: 70px;
+    }
+
+    .back {
+        bottom: 10px;
+    }
+
+    /* Section-3:Les projets. En-têtes. */
+    .projets p {
+        margin: 0%;
+    }
+
+    /* Navigation dans la section projets. */
+    .demo ul {
+        margin-top: 25px;
+        margin-bottom: 0%;
+    }
+
+    /* Images dans le portfolio. */
+    .pfolio {
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    figure {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .pfolio .figure {
+        justify-content: center;
+    }
+
+    .carte {
+        padding-top: 10%;
+    }
+
+    .cont {
+        width: 40%;
+    }
+}
+
+/* Responsive: Ecran max 730px. */
+@media all and (max-width: 730px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    /* Logo de l'agence dans le header. */
+    .p1 {
+        width: 100%;
+        height: 8%;
+    }
+
+    .logo {
+        margin-top: 1.2%;
+    }
+
+    .logo img {
+        width: auto;
+    }
+
+    /* Navigation dans le header. */
+    .page2 {
+        width: 100%;
+    }
+
+    .page2 ul {
+        width: 100%;
+        padding: 0%;
+        justify-content: center;
+        height: 50%;
+        align-items: center;
+    }
+
+    .page2 a {
+        padding: 10px;
+    }
+
+    /* Diaporama de navigation dans la photo de l'agence. */
+    .flechedroite {
+        padding: 2% 1% 2% 2%;
+    }
+
+    .flechegauche {
+        padding: 2% 2% 2% 1%;
+    }
+
+    /* Section-1: Texte dans la photo de lagence. */
+    .text {
+        font-size: .6em;
+    }
+
+    /*Section-2: Les services. Titres.*/
+    .serv h1 {
+        font-size: 2em;
+    }
+
+    /* section-2: Les services. Paragraphes. */
+    .para p {
+        margin-top: 0%;
+    }
+
+    /* Aside contenant la photo ecran + les services. */
+    .info {
+        align-items: flex-start;
+    }
+
+    /* Figures et textes dans les services. */
+    .ecran {
+        width: 100%;
+        margin: auto;
+    }
+
+    .stat {
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    .stat p,
+    h4 {
+        width: 80%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .ux {
+        top: 0%;
+        left: 45%;
+    }
+
+    /* Images dans le portfolio. */
+    .pfolio {
+        padding-top: 25px;
+    }
+
+    figure {
+        width: 48%;
+        margin: 2px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    figcaption {
+        width: 100%;
+        height: 70%;
+    }
+
+    /* Formulaire de contact. */
+    .carte {
+        padding-top: 15%;
+    }
+
+    .cont {
+        width: auto;
+        top: 22%;
+        height: 67%;
+    }
+
+}
+
+/* Responsive: Ecran max 375px. */
+@media all and (max-width: 375px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    /* Header. */
+    .p1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 160px;
+    }
+
+    /* Logo de l'agence dans le header. */
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    /* Navigation dans le header. */
+    .page2 {
+        width: 100%;
+    }
+
+    .page2 ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: auto;
+    }
+
+    /* Section-1: Photo de l'agence. */
+    .conteneur1 {
+        top: 120px;
+    }
+
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Diaporama de navigation dans la photo de l'agence. */
+    .flechedroite {
+        font-size: 1.5em;
+        padding: 10px 4px 10px 10px;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .flechegauche {
+        font-size: 1.5em;
+        padding: 10px 10px 10px 4px;
+        border-radius: 0px 25px 25px 0px;
+    }
+
+    /* Section-1: Texte dans la photo de lagence. */
+    .text {
+        top: 0%;
+    }
+
+    .text h1 {
+        font-size: 2em;
+    }
+
+    .text p {
+        margin: 3%;
+    }
+
+    /* Lien dans la photo de l'agence. */
+    .boutonbleu {
+        width: 30%;
+        margin-top: 0%;
+        height: 15px;
+    }
+
+    .boutonbleu a {
+        font-size: 1em;
+    }
+
+    /* Section-2: Les services.Titres. */
+    .serv h1 {
+        padding-top: 50%;
+    }
+
+    /* Section-2: Les services. Lignes de decoration. */
+    .ligneg {
+        left: 25%;
+        width: 20%;
+    }
+
+    .ligned {
+        width: 20%;
+        left: 55%;
+    }
+
+    /* Aside contenant la photo ecran + les services. */
+    .ord img {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Figures et textes dans les services. */
+    .stat p{
+        margin: 0%;
+        width: auto;
+        padding-top: 10px;
+        text-align: justify;
+    }
+
+    .ux {
+        left: 41%;
+    }
+
+    /* Section-3:Les projets. En-têtes. */
+    .projets h1 {
+        font-size: 2em;
+        padding-top: 50%;
+    }
+
+    /* Navigation dans la section projets. */
+    .demo .liste {
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .liste li {
+        background-color: #f5f5f5;
+    }
+
+    .demo li:nth-child(1) {
+        border-radius: 0px;
+    }
+
+    .demo li:nth-child(4) {
+        border-radius: 0px;
+    }
+
+    /* Section-4: Portfolio. Images dans le portfolio. */
+    .pfolio {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure {
+        width: 90%;
+    }
+
+    /* Formulaire de contact. */
+    .cont {
+        width: 90%;
+        height: auto;
+        position: static;
+    }    
+}
