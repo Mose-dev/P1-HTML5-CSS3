@@ -4,7 +4,7 @@
 
 <h2>Le projet</h2>
 <p>
-  <img alt="Ordinateur" src="main-feature.png" />
+  <img align="center "alt="Ordinateur" src="main-feature.png" />
 </p>
 <p>Vous venez d'être embauché(e) par une agence Web, la WebAgency, qui réalise des sites web pour différents clients. Sophie, la directrice technique de l’agence vous informe que le site actuel est vieillissant et que son équipe a peu de temps pour travailler dessus.</p>
 <p>Elle vous propose donc, pour votre première mission, de vous occuper de la refonte du site de l'agence.La WebAgency (agence web fictive) trouvait que son site web avait besoin d'un coup de jeune et qu'une refonte de son site s'imposait. Elle a donc fait appel à mes compétences d'intégrateur pour réaliser ces changements à partir d'une maquette pré-définie. Cette single page est développée en HTML et CSS.</p>
